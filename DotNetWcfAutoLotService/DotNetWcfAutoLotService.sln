@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DotNetWcfAutoLotService", "DotNetWcfAutoLotService\", "{EEED486F-7E4E-4F25-BB86-7A25A4D2930A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{b348c68d-45f6-4013-8728-1080453f23e5}|DotNetEFAutoLot.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_65446"
+		Debug.AspNetCompiler.PhysicalPath = "DotNetWcfAutoLotService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65446\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_65446"
+		Release.AspNetCompiler.PhysicalPath = "DotNetWcfAutoLotService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_65446\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "65446"
+		SlnRelativePath = "DotNetWcfAutoLotService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetEFAutoLot.DAL", "DotNetEFAutoLot.DAL\DotNetEFAutoLot.DAL.csproj", "{B348C68D-45F6-4013-8728-1080453F23E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEED486F-7E4E-4F25-BB86-7A25A4D2930A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEED486F-7E4E-4F25-BB86-7A25A4D2930A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEED486F-7E4E-4F25-BB86-7A25A4D2930A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEED486F-7E4E-4F25-BB86-7A25A4D2930A}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B348C68D-45F6-4013-8728-1080453F23E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B348C68D-45F6-4013-8728-1080453F23E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B348C68D-45F6-4013-8728-1080453F23E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B348C68D-45F6-4013-8728-1080453F23E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F13A9F66-E4F5-4B21-8F63-D57FF3044212}
+	EndGlobalSection
+EndGlobal
